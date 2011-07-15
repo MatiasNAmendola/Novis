@@ -1,0 +1,72 @@
+/* Novis Default CSS */
+body
+{
+background-color:#000000;
+background-image:url(index.php?action=fs-get&type=static&path=defback.jpg);
+background-position:top;
+background-repeat:no-repeat;
+color:#FFFFFF;
+}
+
+/* Window Styles */
+.Window-Titlebar-Unfocused {
+	color:#FFFFFF;
+	background-color:#101A24;
+}
+
+.Window-Titlebar-Focused {
+	color:#FFFFFF;
+	background-color:#404D57;
+}
+
+.Window-Title {
+	color:#FFFFFF;
+}
+
+.Window-Maximise {
+	background-image:url(index.php?action=fs-get&type=static&path=maximise.png);
+}
+
+.Window-Minimise {
+	background-image:url(index.php?action=fs-get&type=static&path=minimise.png);
+}
+
+.Window-Close {
+	background-image:url(index.php?action=fs-get&type=static&path=close.png);
+}
+
+.Window-Restore {
+	background-image:url(index.php?action=fs-get&type=static&path=restore.png);
+}
+
+.Window-Resize {
+	background-image:url(index.php?action=fs-get&type=static&path=resize.png);
+}
+
+.Window-Inner {
+	color:#000000;
+}
+
+/* Icons */
+.Icon {
+	/* Add Icon Style Here */
+}
+.Icon-Text {
+	/* Add Icon-Text Style Here*/
+}
+.Icon-Selected {
+	background-image:url(index.php?action=fs-get&type=ctheme&path=70/highlight.png);
+}
+
+/* Message Box */
+.Message-Box {
+	background-color:#000000;
+}
+
+.TrackBar-Bar {
+	/* Add TrackBar-Bar Style Here */
+}
+
+.TrackBar-Knob {
+background-color:#D8D8D8;
+}

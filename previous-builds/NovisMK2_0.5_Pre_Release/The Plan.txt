@@ -1,0 +1,22 @@
+I Want
+==========================
+Sound API
+Video API
+Internet Application
+Context Menu Types (1,2,3 etc) for different things
+Allow Arrays of Data for Context Menu (undo some hardcoding)
+Move several Core functions into the API instead (major task but should be done)
+Add Open in New Window to Context Menu
+Add Paste to Desktop Context Menu
+Fix Context Menu of Directory Element
+Allow access to the icons as a allowed directory (big task)
+Add file search ablity to the panel/php files
+
+
+I Need
+==========================
+FINISH CONVERSION OF LOCAL USER TO SYSTEM IN NOVIS FOLDER (big task)
+Create Panel Apps (applications that are running)
+Application Messagebank to hold servercall data (would need OnMessage function)
+GET RID OF EXTENSION FROM NAME ATRIBUTE! PUT INPUT TAGS [HIDDEN] INSTEAD (CAN HOLD FAR MORE INFO)
+Add more information to tool tips (file type,size,date modified?)

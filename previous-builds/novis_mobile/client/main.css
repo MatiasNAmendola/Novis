@@ -1,0 +1,108 @@
+@font-face
+{
+	font-family:Melbourne;
+	src:url("Melbourne reg.otf");
+}
+@font-face
+{
+	font-family:"Melbourne Bold";
+	src:url("Melbourne bold.otf");
+}
+@font-face
+{
+	font-family:"Melbourne Light";
+	src:url("Melbourne light.otf");
+}
+.Novis-Button
+{
+	font-family:"Melbourne Bold";
+}
+body{
+	font-family:Melbourne;
+	font-size:100%;
+	cursor:default;
+	margin:0px;
+	background-image:url(background.gif);
+	overflow:hidden;
+}
+.Top-Bar
+{
+	margin:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+	height:30px;
+	background-image:url(topbar.png);
+	background-repeat:repeat-x;
+}
+.Top-Bar-Button
+{
+	position:relative;
+	top:2px;
+	margin:1px 3px;
+	padding:1px 3px;
+	font-size:150%;
+}
+.Menu-Bar
+{
+	margin:0px;
+	left:0px;
+	right:0px;
+	height:43px;
+	background-image:url(menubar2.png);
+	background-repeat:repeat-x;
+}
+.Sub-Menu-Bar
+{
+	margin:0px;
+	left:0px;
+	right:0px;
+	height:48px;
+	background-image:url(submenubar.png);
+	background-repeat:repeat-x;
+}
+.Bottom-Bar
+{
+	position:absolute;
+	margin:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	height:30px;
+	background-image:url(bottombar.png);
+	background-repeat:repeat-x;
+}
+.Bottom-Bar-Button
+{
+	position:relative;
+	top:5px;
+	margin:1px 3px;
+	padding:1px 3px;
+}
+.Bottom-Bar-Button:hover
+{
+	cursor:pointer;
+}
+
+.Notification-Bar
+{
+	margin:0px;
+	left:0px;
+	right:0px;
+	height:22px;
+	overflow:hidden;
+}
+
+.Login-Input
+{
+	margin:8px 5px;
+	text-align:center;
+	height:32px;
+	width:75%;
+	background-color:#FFFFFF;
+	border-width:0;
+}
+.Login-Submit
+{
+
+}

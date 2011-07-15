@@ -1,0 +1,80 @@
+.Window-Main{
+	position:absolute;
+	overflow:hidden;
+	border:#333333 outset thin;
+	background-color:#000000;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+.Window-Background{
+	position:inherit;
+	bottom:0px;
+	width:100%;
+	height:100%;
+	background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(120,120,120) -20%,
+    rgb(0,0,0) 40%
+);
+}
+.Window-Background-Webkit{
+	background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(120,120,120)),
+    color-stop(0.4, rgb(0,0,0))
+);
+}
+.Window-Resize-TB{
+	position:inherit;
+	left:0px;
+	width:100%;
+	height:4px;
+}
+.Window-Resize-LR{
+	position:inherit;
+	width:4px;
+	height:100%;
+}
+.Window-Resize-Corners{
+	position:inherit;
+	width:4px;
+	height:4px;
+}
+.Window-Title-Bar{
+	position:inherit;
+	left:4px;
+	top:4px;
+	right:4px;
+	height:20px;
+}
+.Window-Inner{
+	position:inherit;
+	left:4px;
+	top:24px;
+	right:4px;
+	bottom:4px;
+	color:#000000;
+	background-color:#FFFFFF;
+	-webkit-user-select:text;
+	-moz-user-select:text;
+}
+.Window-Title-Icon{
+	width:16px;
+	height:16px;
+}
+.Window-Title-Text{
+	position:inherit;
+	overflow:hidden;
+	left:18px;
+	height:16px;
+	right:50px;
+	color:white;
+}
+.Window-Title-Buttons{
+	position:inherit;
+	width:48px;
+	right:0px;
+	height:16px;
+}

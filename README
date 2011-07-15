@@ -1,0 +1,17 @@
+Novis Web Operating System
+==========================
+
+No code for the new version has been uploaded yet. Please refer to the "previous-builds" for old Novis code.
+New version of Novis will commence soon when I have the time.
+
+Previous Versions
+=================
+
+Folder "previous-builds" contains all the old Novis code for the various builds I used.
+They were only tested in Firefox 3.6 so I doubt they work in much else.
+I used the Tango Icon Set for the majority of icons in Novis.
+
+The latest version of previous builds is "novis_mobile". It was designed with the iPhone in mind.
+The oldest version is "NovisMK2_0.5_Pre_Release". It was my first attempt at a Web OS.
+The next oldest is "novis_prev_ready" which is a semi-stable build though I scrapped that version.
+The latest window code is in "novis_webkit_gecko" which will probably be used in future versions.

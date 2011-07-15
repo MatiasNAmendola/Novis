@@ -1,0 +1,76 @@
+/* Default Novis Theme */
+/* Colour Scheme: Green */
+
+body {
+	cursor:default;
+	background-color:#3A7BA3;
+}
+
+.Panel {
+	background-image:url(../../Images/Misc/cp_grn.png);
+	background-color:#67C38A;
+	background-repeat:repeat-y;
+}
+
+.Desktop {
+	background-color:#1159A2;
+}
+
+.AJAX-Loader {
+	color:#000000;
+	background-color:#CCCCCC;
+}
+
+.Window-Titlebar-Unfocused {
+	color:#FFFFFF;
+	background-color:#101A24;
+}
+
+.Window-Titlebar-Focused {
+	color:#FFFFFF;
+	background-color:#404D57;
+}
+
+.Window-Title {
+	color:#FFFFFF;
+}
+
+.Window-Maximise {
+	background-image:url(../../images/misc/maximise.png);
+}
+
+.Window-Minimise {
+	background-image:url(../../images/misc/minimise.png);
+}
+
+.Window-Close {
+	background-image:url(../../images/misc/close.png);
+}
+
+.Window-Restore {
+	background-image:url(../../images/misc/restore.png);
+}
+
+.Window-Resize {
+	background-image:url(../../images/misc/win-resize.png);
+}
+
+.Button {
+	background-color:rgb(155,155,155);
+}
+
+.Button-Highlight {
+	background-color:#AAFFBB;
+}
+
+.Icon {
+	background-image:none;
+}
+
+.Icon-Highlight {
+	background-image:url(../../images/misc/icon-fade.png);
+}
+
+.ContextMenu {
+	background-color:rgb(155,155,155);
+}

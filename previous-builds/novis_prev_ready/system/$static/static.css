@@ -1,0 +1,28 @@
+/* Novis Static CSS */
+body {
+cursor:default;
+overflow:hidden;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:80%;
+}
+
+.Menu {
+position:absolute;
+left:0px;
+top:0px;
+width:100%;
+}
+
+.TrackBar-Bar {
+position:relative;
+left:10px;
+width:200px;
+height:2px;
+}
+
+.TrackBar-Knob {
+width:8px;
+height:20px;
+position:relative;
+cursor:pointer;
+}

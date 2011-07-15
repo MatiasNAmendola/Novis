@@ -1,0 +1,22 @@
+List of Status returned by the AJAX ServerCall Function
+=======================================================
+Description
+===========
+Based off of the HTTP Status Codes, these are codes returned from the server.
+
+
+Version 0.5
+===========
+200 - Complete and returning a value
+201 - Created (when a file or folder is created)
+202 - Accepted (when the request is accepted, similar to 204)
+204 - Complete and not returning a value
+302 - Found (when a file or folder exists)
+401 - Unauthorized (when authentication fails)
+403 - Forbidden to access path or file
+409 - Conflict (when something already exists)
+404 - Not Found (when a file or folder is not found)
+426 - Upgrade Required (not yet implemented)
+500 - Internal Server Error
+501 - Not Implemented
+507 - Insufficient Storage (not yet implemented)

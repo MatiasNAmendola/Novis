@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Novis</title>
+<link type="text/css" rel="stylesheet" href="client/main.css"></link>
+<script type="text/javascript" src="client/loader.js"></script>
+<script type="text/javascript">
+function tryLoad()
+{
+	try
+	{
+		System.LoadNext();
+	}
+	catch (e)
+	{
+		document.getElementById("LoaderMessage").innerHTML+="Error: "+e.message+"!";
+	}
+}
+</script>
+</head>
+<body onload="tryLoad();">
+<div class="Top-Bar">
+<span class="Top-Bar-Button"><span class="Novis-Button">Novis</span><small>mini</small></span>
+<span class="Top-Bar-Button" style="display:none;">12:00 AM</span>
+<span class="Top-Bar-Button" style="display:none;">Messages (0)</span>
+<span class="Top-Bar-Button" id="Loader">Loading Novis...</span>
+</div>
+<div id="Menu-Bar" class="Menu-Bar" style="height:0px;">
+</div>
+<div id="Sub-Menu-Bar" class="Sub-Menu-Bar" style="height:0px;">
+</div>
+<div id="Notification-Bar" class="Notification-Bar" style="display:none;height:0px;background-color:#FFFFFF">notifications</div>
+<noscript><big>Error: Javascript must be enabled to use Novis!</big></noscript>
+<div id="Loading-Screen" style="text-align:center;"><img src="client/novis_logo.png"></div>
+<div id="Login-Screen" style="display:none;text-align:center;">
+	<h2>Novis Login</h2>
+	Username<br />
+	<input id="Login-Username" type="text" class="Login-Input" /><br />
+	Password<br />
+	<input id="Login-Password" type="password" class="Login-Input" onkeyup="if(event.keyCode=='13')System.Session.UILogin();" /><br />
+	<input type="button" value="Login" onclick="System.Session.UILogin();" />
+</div>
+<div id="Message-Screen">message</div>
+<div id="Screen" style="opacity:0;">screen</div>
+<div class="Bottom-Bar">
+<span class="Bottom-Bar-Button" onclick="//open up browser app?">&copy; 2011 Turner Software</span>
+<span class="Bottom-Bar-Button" id="Bottom-Bar-Button-Logout" onclick="System.Session.DoLogout();" style="display:none;">Logout</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.Progress-Bar
+{
+position:absolute;
+color:white;
+background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(214,214,214) 22%,
+    rgb(174,174,174) 58%
+);
+}
+.Progress-Bar-Webkit
+{
+background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.22, rgb(214,214,214)),
+    color-stop(0.58, rgb(174,174,174))
+);
+}
+.Inner-Progress-Bar
+{
+position:absolute;
+text-shadow:1px 1px 2px black;
+vertical-align:middle;
+text-align:center;
+background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(5,214,43) 20%,
+    rgb(191,255,202) 80%
+);
+}
+.Inner-Progress-Bar-Webkit
+{
+background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.2, rgb(5,214,43)),
+    color-stop(0.8, rgb(191,255,202))
+);
+}

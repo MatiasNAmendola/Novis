@@ -1,0 +1,2 @@
+Requires flv-player.js and mcmp.swf!
+Needs Flash Player installed!

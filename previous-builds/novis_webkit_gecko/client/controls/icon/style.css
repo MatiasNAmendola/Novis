@@ -1,0 +1,35 @@
+.Icon
+{
+text-align:center;
+vertical-align:middle;
+overflow:hidden;
+}
+.Icon-Webkit:hover
+{
+background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.4, rgb(200,233,235)),
+    color-stop(1, rgb(255,255,255))
+);
+}
+.Icon:hover
+{
+text-align:center;
+vertical-align:middle;
+background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(200,233,235) 40%,
+    rgb(255,255,255) 100%
+);
+overflow:hidden;
+}
+.Icon-Image
+{
+width:100%;
+}
+.Icon-Text
+{
+text-shadow:0px 0px 2px black;
+}

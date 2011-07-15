@@ -1,0 +1,48 @@
+.Button
+{
+background-color:rgba(214,214,214,1);
+background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(214,214,214) 22%,
+    rgb(174,174,174) 58%
+);
+color:black;
+vertical-align:middle;
+text-align:center;
+}
+.Button-Webkit
+{
+background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.22, rgb(214,214,214)),
+    color-stop(0.58, rgb(174,174,174))
+);
+}
+.Button-Webkit:hover
+{
+background-image:-webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.22, rgb(178,224,249)),
+    color-stop(0.58, rgb(148,194,219))
+);
+}
+.Button:hover
+{
+color:black;
+vertical-align:middle;
+text-align:center;
+background-image:-moz-linear-gradient(
+    center bottom,
+    rgb(178,224,249) 22%,
+    rgb(148,194,219) 58%
+);
+}
+.Inner-Button
+{
+padding-left:5px;
+padding-right:5px;
+}
