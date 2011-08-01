@@ -5,7 +5,7 @@ var AppMan = {
 		var app = new Application(this.Applications.length,Url);
 		app.AddControlledErrorListener(this.OnApplicationError);
 		this.Applications.push(app);
-	}
+	},
 	Terminate:function(Id)
 	{
 		if (this.Applications[Id] != null || typeof this.Applications[Id] != "undefined")
@@ -13,7 +13,7 @@ var AppMan = {
 			this.Applications[Id].Terminate();
 			this.Applications[Id] = null;
 		}
-	}
+	},
 	OnApplicationError:function(Id,Event)
 	{
 		console.warn("Application Error - ID: "+Id+" - Message: "+Event.data);
